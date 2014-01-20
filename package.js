@@ -6,7 +6,7 @@ Package.on_use(function(api) {
   api.use('underscore', ['client', 'server']);
   api.use('deps', ['client', 'server']);
   api.use(['templating', 'handlebars', 'moment'], 'client');
-  api.use('collection2', ['client', 'server'], {weak: true});
+  // api.use('collection2', ['client', 'server'], {weak: true});
   api.use('simple-schema', ['client', 'server']);
 
   if (typeof api.export !== 'undefined') {
